@@ -1,0 +1,40 @@
+# Ignore build artifacts
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+.project
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Ignore credentials and secrets
+config.ini
+secrets.yaml
+*.key
+*.pem
+
+# Ignore dependencies
+node_modules/
+vendor/
+packages-lock.json
+
+# Ignore large files
+*.zip
+*.gz
+*.tar
+*.rar
+*.mp4
+*.avi
